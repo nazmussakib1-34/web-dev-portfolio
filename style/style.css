@@ -1,0 +1,94 @@
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* shered style */
+.text-primery{
+    color:#FD6E0A ;
+}
+.dark-2{
+    color: #474747;
+}
+
+.dark-3{
+    color: #757575;
+}
+.btn-primery{
+background-color: #FD6E0A;
+font-weight: bold;
+font-size: 20px;
+color: white;
+border: none;
+padding: 15px 32px;
+border-radius: 5px;
+}
+
+/* header */
+.header{
+background-image: url(../images/developer.png),  url(../images/header_bg.png);
+background-repeat: no-repeat;
+background-position: top left,bottom right;
+/* height: 0, 300px;
+width: 0, 600px; */
+}
+
+/* Nav bar style  */
+nav{
+    display: flex ;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 35px 0px 230px; 
+}
+
+.nav-title{
+     font-weight:800;
+    font-size: 45px;
+    color: #181818;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 50px;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Banner styles */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 35px 0px 230px; 
+}
+
+.heardy-image{
+    /* height: 350px;
+    width: 300px; */
+}
+
+.banner-content{
+    height: 300px;
+    width: 500px;
+
+}
+.banner-greetings{
+    font-size: 30px;
+    font-weight: 600;
+}
+.banner-title{
+    font-size: 70px;
+    font-weight: 800;
+}
+.description-property{
+font-size: 18px;
+}
